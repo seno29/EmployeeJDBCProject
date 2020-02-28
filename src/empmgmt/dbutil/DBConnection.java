@@ -10,9 +10,9 @@ public class DBConnection {
     static{
         try{
         Class.forName("oracle.jdbc.OracleDriver");
-            String url = "jdbc:oracle:thin:@//dell:1521/XE";
-            String username = "javaproj";
-            String password = "java";
+//             String url = "";
+//             String username = "";
+//             String password = "";
             conn = DriverManager.getConnection(url, username, password);
     }catch(Exception e){
         e.printStackTrace();
